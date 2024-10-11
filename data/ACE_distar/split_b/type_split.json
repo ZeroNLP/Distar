@@ -1,0 +1,39 @@
+{
+  "seen_types": [
+    "BE-BORN",
+    "MARRY",
+    "DIE",
+    "TRANSPORT",
+    "START-ORG",
+    "ATTACK",
+    "MEET",
+    "END-POSITION",
+    "ELECT",
+    "SENTENCE",
+    "ARREST-JAIL"
+  ],
+  "unseen_types": [
+    "DIVORCE",
+    "INJURE",
+    "TRANSFER-OWNERSHIP",
+    "TRANSFER-MONEY",
+    "MERGE-ORG",
+    "DECLARE-BANKRUPTCY",
+    "END-ORG",
+    "DEMONSTRATE",
+    "PHONE-WRITE",
+    "START-POSITION",
+    "NOMINATE",
+    "RELEASE-PAROLE",
+    "TRIAL-HEARING",
+    "CHARGE-INDICT",
+    "SUE",
+    "CONVICT",
+    "FINE",
+    "EXECUTE",
+    "EXTRADITE",
+    "ACQUIT",
+    "PARDON",
+    "APPEAL"
+  ]
+}
