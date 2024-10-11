@@ -1,4 +1,4 @@
-# Distar
+# Distar: Zero-shot Event Argument Extraction by Disentangling Trigger from Argument and Role
 
 Source code for paper __Zero-shot Event Argument Extraction by Disentangling Trigger from Argument and Role__
 
