@@ -6,7 +6,7 @@ Source code for paper __Zero-shot Event Argument Extraction by Disentangling Tri
 
 ```shell
 cd Distar
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate distar_env
 ```
 
