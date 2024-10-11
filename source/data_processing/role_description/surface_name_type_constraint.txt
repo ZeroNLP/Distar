@@ -1,0 +1,223 @@
+BE-BORN
+Person_Arg:person. It is a person
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+MARRY
+Person_Arg:person. It is a person
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+DIVORCE
+Person_Arg:person. It is a person
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+INJURE
+Agent_Arg:agent. It is a person, organization or country
+Victim_Arg:victim. It is a person
+Instrument_Arg:instrument. It is a weapon or vehicle
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+DIE
+Agent_Arg:agent. It is a person, organization or country
+Victim_Arg:victim. It is a person
+Instrument_Arg:instrument. It is a weapon or vehicle
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+TRANSPORT
+Agent_Arg:agent. It is a person, organization or country
+Artifact_Arg:artifact. It is a person, weapon or vehicle
+Vehicle_Arg:vehicle. It is a vehicle
+Price_Arg:price. It is a number
+Origin_Arg:origin. It is a country, location or facility
+Destination_Arg:destination. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+TRANSFER-OWNERSHIP
+Buyer_Arg:buy. It is a person, organization or country
+Seller_Arg:seller. It is a person, organization or country
+Artifact_Arg:artifact. It is a vehicle, weapon, facility or organization
+Price_Arg:price. It is money
+Beneficiary_Arg:beneficiary. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+TRANSFER-MONEY
+Giver_Arg:giver. It is a person, organization or country
+Recipient_Arg:recipient. It is a person, organization or country
+Beneficiary_Arg:beneficiary. It is a person, organization or country
+Money_Arg:money. It is money
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+START-ORG
+Agent_Arg:agent. It is a person, organization or country
+Org_Arg:organization. It is a organization
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+MERGE-ORG
+Org_Arg:organization. It is a organization
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+DECLARE-BANKRUPTCY
+Org_Arg:organization. It is a organization, person or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+END-ORG
+Org_Arg:organization. It is a organization
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+ATTACK
+Attacker_Arg:attacker. It is a person, organization or country
+Target_Arg:target. It is a person, organization, vehicle, facility or weapon
+Instrument_Arg:instrument. It is a weapon or vehicle
+Place_Arg:place. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+DEMONSTRATE
+Entity_Arg:entity. It is a person or organization
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a location, country or facility
+
+MEET
+Entity_Arg:entity. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+PHONE-WRITE
+Entity_Arg:entity. It is a person, organization or country
+Time_Arg:time. It is a date or time
+
+START-POSITION
+Person_Arg:person. It is a person
+Entity_Arg:entity. It is a organization or country
+Position_Arg:position. It is a job
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+END-POSITION
+Person_Arg:person. It is a person
+Entity_Arg:entity. It is a organization or country
+Position_Arg:position. It is a job
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+NOMINATE
+Agent_Arg:agent. It is a person, organization, country or facility
+Person_Arg:person. It is a person
+Position_Arg:position. It is a job
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+ELECT
+Entity_Arg:entity. It is a person, organization or country
+Person_Arg:person. It is a person
+Position_Arg:position. It is a job
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+ARREST-JAIL
+Agent_Arg:agent. It is a person, organization or country
+Person_Arg:person. It is a person
+Crime_Arg:crime. It is a crime
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+RELEASE-PAROLE
+Entity_Arg:entity. It is a person, organization or country
+Person_Arg:person. It is a person
+Crime_Arg:crime. It is a crime
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+TRIAL-HEARING
+Prosecutor_Arg:prosecutor. It is a person, organization or country
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+CHARGE-INDICT
+Prosecutor_Arg:prosecutor. It is a person, organization or country
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+SUE
+Plaintiff_Arg:plaintiff. It is a person, organization or country
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+CONVICT
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+SENTENCE
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Sentence_Arg:sentence. It is a sentence
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+FINE
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Entity_Arg:entity. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Money_Arg:money. It is a number
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+EXECUTE
+Agent_Arg:agent. It is a person, organization or country
+Person_Arg:person. It is a person
+Crime_Arg:crime. It is a crime
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+EXTRADITE
+Agent_Arg:agent. It is a person, organization or country
+Person_Arg:person. It is a person
+Crime_Arg:crime. It is a crime
+Origin_Arg:origin. It is a country, location or facility
+Destination_Arg:destination. It is a country, location or facility
+Time_Arg:time. It is a date or time
+
+ACQUIT
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+PARDON
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Defendant_Arg:defendant. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+
+APPEAL
+Defendant_Arg:defendant. It is a person or organization
+Prosecutor_Arg:prosecutor. It is a person, organization or country
+Crime_Arg:crime. It is a crime
+Adjudicator_Arg:adjudicator. It is a person, organization or country
+Time_Arg:time. It is a date or time
+Place_Arg:place. It is a country, location or facility
+

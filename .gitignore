@@ -1,0 +1,11 @@
+data/ACE_raw/*
+!data/ACE_raw/.gitkeep
+data/ACE_converted/*
+!data/ACE_converted/doc_split/*
+data/ACE_distar/*
+!data/ACE_distar/split_a/type_split.json
+!data/ACE_distar/split_b/type_split.json
+output/*
+!output/.gitkeep
+**/__pycache__/
+
