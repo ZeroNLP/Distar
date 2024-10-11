@@ -1,7 +1,7 @@
 data/ACE_raw/*
 !data/ACE_raw/.gitkeep
 data/ACE_converted/*
-!data/ACE_converted/doc_split/*
+!data/ACE_converted/doc_split
 data/ACE_distar/*
 !data/ACE_distar/split_a/
 data/ACE_distar/split_a/*
